@@ -22,7 +22,7 @@ public class ParameterController {
 
         model.addAttribute("message", "Hello, " + name + " " + lastname + "! ");
 
-        return null;
+        return "hello";
     }
 
     @GetMapping("/weather")
